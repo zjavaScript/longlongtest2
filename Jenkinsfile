@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('111') {
       steps {
-        archiveArtifacts '1111222'
+        archiveArtifacts(artifacts: '1111222', allowEmptyArchive: true, caseSensitive: true, followSymlinks: true)
       }
     }
 

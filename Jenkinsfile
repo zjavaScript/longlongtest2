@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('111') {
       steps {
-        archiveArtifacts '1111'
+        archiveArtifacts '1111222'
       }
     }
 
